@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://cyexyyy41w7n3"]
+
+[ext_resource type="Script" uid="uid://djh7xd13loeha" path="res://player.gd" id="1_sweqy"]
+[ext_resource type="Texture2D" uid="uid://1aoyi2koyxrf" path="res://art/simi.png" id="2_2hs0m"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_b26j0"]
+radius = 23.0
+height = 90.0
+
+[node name="Player" type="Area2D"]
+collision_mask = 7
+script = ExtResource("1_sweqy")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(0.105, 0.105)
+texture = ExtResource("2_2hs0m")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_b26j0")
+disabled = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

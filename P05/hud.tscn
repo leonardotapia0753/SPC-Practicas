@@ -1,0 +1,128 @@
+[gd_scene load_steps=9 format=3 uid="uid://d00ema7b0kyyw"]
+
+[ext_resource type="FontFile" uid="uid://c77pnomxsry82" path="res://fonts/Xolonium-Regular.ttf" id="1_37p78"]
+[ext_resource type="Script" uid="uid://373ejjro8uwn" path="res://hud.gd" id="1_64ctp"]
+[ext_resource type="Texture2D" uid="uid://jsjtcf2b008i" path="res://arrow.svg" id="3_8sq4i"]
+[ext_resource type="Texture2D" uid="uid://dcbnfj5pcvqo6" path="res://art/coin.png" id="3_a2258"]
+[ext_resource type="Texture2D" uid="uid://jeqjbmaa1qnl" path="res://art/clock.png" id="4_1xsix"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_64ctp"]
+device = -1
+keycode = 4194309
+
+[sub_resource type="InputEventAction" id="InputEventAction_8sq4i"]
+action = &"start_game"
+
+[sub_resource type="Shortcut" id="Shortcut_8sq4i"]
+events = [SubResource("InputEventKey_64ctp"), SubResource("InputEventAction_8sq4i")]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_64ctp")
+
+[node name="CoinCounter" type="Label" parent="."]
+offset_left = 89.0
+offset_top = 16.0
+offset_right = 134.0
+offset_bottom = 94.0
+theme_override_fonts/font = ExtResource("1_37p78")
+theme_override_font_sizes/font_size = 64
+text = "0"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="CoinIcon" type="TextureRect" parent="."]
+offset_top = 8.0
+offset_right = 592.0
+offset_bottom = 600.0
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("3_a2258")
+
+[node name="ClockIcon" type="TextureRect" parent="."]
+offset_left = 312.0
+offset_top = 24.0
+offset_right = 824.0
+offset_bottom = 536.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("4_1xsix")
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_left = 376.0
+offset_top = 16.0
+offset_right = 421.0
+offset_bottom = 94.0
+theme_override_fonts/font = ExtResource("1_37p78")
+theme_override_font_sizes/font_size = 64
+text = "0"
+vertical_alignment = 1
+
+[node name="Message" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -120.0
+offset_right = 240.0
+offset_bottom = 120.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_37p78")
+theme_override_font_sizes/font_size = 64
+text = "Atrapa las Monedas!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MessageTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="StartButton" type="Button" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -140.0
+offset_right = 100.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("1_37p78")
+theme_override_font_sizes/font_size = 64
+shortcut = SubResource("Shortcut_8sq4i")
+text = "Iniciar"
+
+[node name="DirectionArrows" type="Node2D" parent="."]
+visible = false
+position = Vector2(160, 544)
+scale = Vector2(0.07, 0.07)
+metadata/_edit_group_ = true
+
+[node name="UpArrow" type="TouchScreenButton" parent="DirectionArrows"]
+position = Vector2(-914.286, 342.857)
+rotation = -1.5708
+texture_normal = ExtResource("3_8sq4i")
+action = "move_up"
+
+[node name="DownArrow" type="TouchScreenButton" parent="DirectionArrows"]
+position = Vector2(-114.286, 1142.86)
+rotation = 1.5708
+texture_normal = ExtResource("3_8sq4i")
+action = "move_down"
+
+[node name="LeftArrow" type="TouchScreenButton" parent="DirectionArrows"]
+position = Vector2(-800, 1142.86)
+rotation = -3.14159
+texture_normal = ExtResource("3_8sq4i")
+action = "move_left"
+
+[node name="RightArrow" type="TouchScreenButton" parent="DirectionArrows"]
+position = Vector2(-228.571, 342.857)
+texture_normal = ExtResource("3_8sq4i")
+action = "move_right"
+
+[connection signal="timeout" from="MessageTimer" to="." method="_on_message_timer_timeout"]
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]

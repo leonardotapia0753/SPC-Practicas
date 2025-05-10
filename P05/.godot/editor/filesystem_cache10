@@ -1,0 +1,38 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1746849289
+arrow.svg::CompressedTexture2D::669438889334286406::1746459792::1746847959::1::::<><><>0<>0<>fc0b3de4c028f7bdbbfbb26f6614e5d8<>res://.godot/imported/arrow.svg-c69567e338c28a4081cbb6e4b066927b.ctex::
+coin.gd::GDScript::7171286097677852615::1746815354::0::1::::<>RigidBody2D<><>0<>0<><>::
+coin.tscn::PackedScene::7856576528488434791::1746828231::0::1::::<><><>0<>0<><>::uid://c24of4t51vu35::::res://art/moneda_1.png<>uid://daf3bfv07pc4n::::res://coin.gd<>uid://be3v8paotyjcw::::res://art/moneda_2.png<>uid://m4cfohff02tj::::res://art/moneda_5.png<>uid://bnbb8ohtamr2x::::res://art/moneda_10.png
+export_presets.cfg::TextFile::-1::1746465872::0::1::::<><><>0<>0<><>::
+hud.gd::GDScript::2033055416373723025::1746828231::0::1::::<>CanvasLayer<><>0<>0<><>::
+hud.tscn::PackedScene::8965856932892538534::1746828231::0::1::::<><><>0<>0<><>::uid://c77pnomxsry82::::res://fonts/Xolonium-Regular.ttf<>uid://373ejjro8uwn::::res://hud.gd<>uid://jsjtcf2b008i::::res://arrow.svg<>uid://dcbnfj5pcvqo6::::res://art/coin.png<>uid://jeqjbmaa1qnl::::res://art/clock.png
+icon.svg::CompressedTexture2D::6281751024841192161::1745901656::1746847959::1::::<><><>0<>0<>a24384739d01c02ee5f56aaaebd4d9da<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.gd::GDScript::7867017498046366959::1746827962::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::4270678794828305052::1746849025::0::1::::<><><>0<>0<><>::uid://dkc3vm5vw7sqh::::res://main.gd<>uid://255vwo0cilpw::::res://mob.tscn<>uid://dj61wxx620472::::res://coin.tscn<>uid://dj8ry15wrdkr6::::res://art/pyramid.png<>uid://cyexyyy41w7n3::::res://player.tscn<>uid://d00ema7b0kyyw::::res://hud.tscn<>uid://bwec6h0kj1yn::::res://art/House In a Forest Loop.ogg<>uid://b40o16l7f24wb::::res://art/gameover.wav
+mob.gd::GDScript::3297021283808751967::1746815354::0::1::::<>RigidBody2D<><>0<>0<><>::
+mob.tscn::PackedScene::1958890300583515328::1746828231::0::1::::<><><>0<>0<><>::uid://bm8dpuoncu3pr::::res://mob.gd<>uid://cylthvyr6qvmv::::res://art/hierba.png<>uid://jnxbslf4gasu::::res://art/jeringa.png<>uid://c02u5jkqkladw::::res://art/polvo.png
+player.gd::GDScript::7807396504150764446::1746828772::0::1::::<>Area2D<><>0<>0<><>::
+player.tscn::PackedScene::6467071774591548230::1746828231::0::1::::<><><>0<>0<><>::uid://djh7xd13loeha::::res://player.gd<>uid://1aoyi2koyxrf::::res://art/simi.png
+README.md::TextFile::-1::1746848865::0::1::::<><><>0<>0<><>::
+::res://android/::1746465138
+::res://art/::1746847959
+clock.png::CompressedTexture2D::640944718849982037::1746825970::1746847959::1::::<><><>0<>0<>cc77ca7daea720dfc8a035ecb0a11bfa<>res://.godot/imported/clock.png-32853f4185d6c0894e704b8f6dcb0b9a.ctex::
+coin.png::CompressedTexture2D::7302502885724248419::1746826023::1746847959::1::::<><><>0<>0<>4356b9d619a017cc21d2314e8da5aef1<>res://.godot/imported/coin.png-7a22d78603b91b8bca023a7cd8e523dd.ctex::
+gameover.wav::AudioStreamWAV::4474404708266206153::1744386698::1746847959::1::::<><><>0<>0<>c9ce1dbc27305f8f276392ec247d8cd9<>res://.godot/imported/gameover.wav-98c95c744b35280048c2bd093cf8a356.sample::
+hierba.png::CompressedTexture2D::6481249034293675153::1746809655::1746847959::1::::<><><>0<>0<>eaa2eb0d28d15191b29d5edbe0dd6610<>res://.godot/imported/hierba.png-798b28d2912c1a97caf64f7dd85a6b19.ctex::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::115853233973342061::1744386698::1746847959::1::::<><><>0<>0<>7db1b78c87d782e64bf9509030575651<>res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr::
+jeringa.png::CompressedTexture2D::659935742851920600::1746809568::1746847959::1::::<><><>0<>0<>7f5a902e5a361510873c1512d95c8108<>res://.godot/imported/jeringa.png-8614d742bebb14c6f2827c642d300944.ctex::
+moneda_1.png::CompressedTexture2D::6728667621276159982::1746807147::1746847959::1::::<><><>0<>0<>3353f6245f3821a1444f7dd28a634d47<>res://.godot/imported/moneda_1.png-41ed85ad44054bae68ad8bd68c729a02.ctex::
+moneda_2.png::CompressedTexture2D::2726313411918553902::1746807281::1746847959::1::::<><><>0<>0<>3b3bc9b8bec82064466727627b02645d<>res://.godot/imported/moneda_2.png-ff5477b7ba94d1e615be97712fbe394f.ctex::
+moneda_5.png::CompressedTexture2D::902264187854585715::1746807302::1746847959::1::::<><><>0<>0<>f60b769041286755f97d16372c1fb0de<>res://.godot/imported/moneda_5.png-1fc585e730bbcf1375d00377a9b863e6.ctex::
+moneda_10.png::CompressedTexture2D::3301060423937508081::1746807329::1746847959::1::::<><><>0<>0<>3704b6bb088dc60bbb267a8fdcc7f4a1<>res://.godot/imported/moneda_10.png-7a9c5145e4b44a1f5d28de653014b887.ctex::
+polvo.png::CompressedTexture2D::6584569060268059892::1746809583::1746847959::1::::<><><>0<>0<>ba1909afa6039fc779d64db962dc1c5c<>res://.godot/imported/polvo.png-be965c47ae2ab44c3ec38bb352d4246f.ctex::
+pyramid.png::CompressedTexture2D::7860162570609977969::1746634080::1746847959::1::::<><><>0<>0<>d3766ee28880266640382a7e71794edc<>res://.godot/imported/pyramid.png-9b137a6be25b0e3eca9092a341c03b4f.ctex::
+simi.png::CompressedTexture2D::1825803293911843779::1746810940::1746847959::1::::<><><>0<>0<>e203d44f81d9b3081e2b02f2097be379<>res://.godot/imported/simi.png-a063e77a86f7657faaf0c92a96345e4a.ctex::
+::res://capturas/::1746849310
+Captura desde 2025-05-09 21-48-22.png::CompressedTexture2D::3145646276093689903::1746848902::1746849315::1::::<><><>0<>0<>7290293fb510adea3ddccc81024c2f09<>res://.godot/imported/Captura desde 2025-05-09 21-48-22.png-fcf06fe8dfd92b64f1ae1b54602284c1.ctex::
+Captura desde 2025-05-09 21-49-41.png::CompressedTexture2D::213192760539684981::1746848981::1746849315::1::::<><><>0<>0<>8253ab4a8af9455b724f956edd1ab4cf<>res://.godot/imported/Captura desde 2025-05-09 21-49-41.png-851c1c67ee0e800e626ec109f322b099.ctex::
+::res://fonts/::1746847959
+FONTLOG.txt::TextFile::-1::1744386698::0::1::::<><><>0<>0<><>::
+LICENSE.txt::TextFile::-1::1744386698::0::1::::<><><>0<>0<><>::
+Xolonium-Regular.ttf::FontFile::7085879177079732709::1744386698::1746847959::1::::<><><>0<>0<>d0dd27bf12569909e12871638394f4c9<>res://.godot/imported/Xolonium-Regular.ttf-bc2981e3069cff4c34dd7c8e2bb73fba.fontdata::
