@@ -11,9 +11,11 @@ Juego 2D con temática mexicana adaptado para dispositivos móviles Android.
 El doctor Simi en su viaje a Chichen Itza se encuentra con varias monedas, por lo que decide recolectarlas. Sin embargo, no cuenta con que para recolectarlas tiene que esquivar sustancias adictivas que obstaculizan su camino.
 Recolecta el mayor número de monedas sin tocar las sustancias adictivas!!!
 
-![image][./capturas/Captura desde 2025-05-09 21-48-22.png]
-![image][./capturas/Captura desde 2025-05-09 21-49-41.png]
-![image][./capturas/2025-05-09 21-53-29.gif]
+![Pantalla de inicio](https://github.com/leonardotapia0753/SPC-Practicas/blob/main/P05/capturas/Captura%20desde%202025-05-09%2021-48-22.png)
+
+![Captura del Gameplay](https://github.com/leonardotapia0753/SPC-Practicas/blob/main/P05/capturas/Captura%20desde%202025-05-09%2021-49-41.png)
+
+![GIF del Gameplay](https://github.com/leonardotapia0753/SPC-Practicas/blob/main/P05/capturas/2025-05-09%2021-53-29.gif)
 
 ## Como instalarlo
 1. Descarga el archivo `practica-05.apk`.
